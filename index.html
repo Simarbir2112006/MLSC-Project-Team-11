@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia Quiz</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Multiple Choice Questions</h1>
+    </div>
+
+    <div class="container">
+        <!-- Question 1 -->
+        <div class="section">
+            <h3>Which team did Michael Schumacher win his first F1 World Championship with?</h3>
+            <div id="q1-result" class="feedback"></div>
+            <div class="buttons-container">
+                <button id="q1-a" class="option" onclick="incorrectButton('q1-a')">Scuderia Ferrari</button>
+                <button id="q1-b" class="option" onclick="correctButton('q1-b')">Benetton</button>
+                <button id="q1-c" class="option" onclick="incorrectButton('q1-c')">Mercedes</button>
+                <button id="q1-d" class="option" onclick="incorrectButton('q1-d')">Jordan</button>
+            </div>
+            <hr>
+        </div>
+
+        <!-- Question 2 -->
+        <div class="section">
+            <h3>What year was the first Formula 1 World Championship held?</h3>
+            <div id="q2-result" class="feedback"></div>
+            <div class="buttons-container">
+                <button id="q2-a" class="option" onclick="incorrectButton('q2-a')">1948</button>
+                <button id="q2-b" class="option" onclick="correctButton('q2-b')">1950</button>
+                <button id="q2-c" class="option" onclick="incorrectButton('q2-c')">1952</button>
+                <button id="q2-d" class="option" onclick="incorrectButton('q2-d')">1955</button>
+            </div>
+            <hr>
+        </div>
+
+        <!-- Question 3 -->
+        <div class="section">
+            <h3>Which circuit is known as the 'Temple of Speed'?</h3>
+            <div id="q3-result" class="feedback"></div>
+            <div class="buttons-container">
+                <button id="q3-a" class="option" onclick="correctButton('q3-a')">Monza (Italy)</button>
+                <button id="q3-b" class="option" onclick="incorrectButton('q3-b')">Silverstone (UK)</button>
+                <button id="q3-c" class="option" onclick="incorrectButton('q3-c')">Spa-Francorchamps (Belgium)</button>
+                <button id="q3-d" class="option" onclick="incorrectButton('q3-d')">Suzuka (Japan)</button>
+            </div>
+            <hr>
+        </div>
+
+        <!-- Question 4 -->
+        <div class="section">
+            <h3>What is the highest number of wins in a single season by a driver?</h3>
+            <div id="q4-result" class="feedback"></div>
+            <div class="buttons-container">
+                <button id="q4-a" class="option" onclick="incorrectButton('q4-a')">11</button>
+                <button id="q4-b" class="option" onclick="incorrectButton('q4-b')">13</button>
+                <button id="q4-c" class="option" onclick="correctButton('q4-c')">15</button>
+                <button id="q4-d" class="option" onclick="incorrectButton('q4-d')">10</button>
+            </div>
+            <hr>
+        </div>
+
+        <!-- Question 5 -->
+        <div class="section">
+            <h3>Did Toro Rosso win a race before Red Bull Racing?</h3>
+            <div id="q5-result" class="feedback"></div>
+            <div class="buttons-container">
+                <button id="q5-a" class="option" onclick="correctButton('q5-a')">True</button>
+                <button id="q5-b" class="option" onclick="incorrectButton('q5-b')">False</button>
+            </div>
+            <hr>
+        </div>
+
+    </div>
+</body>
+</html>

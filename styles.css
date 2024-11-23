@@ -1,0 +1,117 @@
+/* General Styles */
+body {
+    background-color: #2c2c2c;
+    color: #f0f0f0;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+}
+
+.header {
+    padding: 20px;
+    text-align: center;
+    background-color: #333;
+    width: 100%;
+    color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+}
+
+.container {
+    margin: 20px;
+    width: 90%;
+    max-width: 80%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+h2, h3 {
+    color: #aeefff;
+    background-color: #444;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+/* Feedback labels */
+.feedback {
+    font-size: 21px;
+    margin: 10px 0;
+    font-weight: bold;
+    color: #f0f0f0;
+    font-weight: bold;
+}
+
+/* Button styles */
+button.option {
+    background-color: #f0f0f0;
+    color: #2c2c2c;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 5px 0;
+    width: 100%;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+button.option:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Correct and Incorrect styles */
+button.correct, input.correct {
+    background-color: #218838; /* Green */
+    color: #f0f0f0;
+}
+
+button.incorrect, input.incorrect {
+    background-color: #c82333; /* Red */
+    color: #f0f0f0;
+}
+
+/* Input box styles */
+.input-box {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+/* Submit button */
+.submit-btn {
+    background-color: #f0f0f0;
+    color: #2c2c2c;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.submit-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+button.no-hover {
+    pointer-events: none; /* Disables all mouse interactions */
+}
